@@ -25,7 +25,22 @@
 .veget-width{
 	/* width: 10%; */
 	
+}
+.form-control:focus{
+	box-shadow:none !important;
+}
+	
+	
+	
+.my-border-bottom{		
+	border-bottom: 1px solid #dee2e6;
+}
+.my-footer-color{
+	color: #ff0000;	
+}		
+a.color-hover:hover{
+	color: red!important;	
 }		
 		
-			
+		
 			

@@ -1,0 +1,17 @@
+.my-bg-w{
+	width: 100%;
+	height: auto;
+	
+}
+.my-scoll-no{
+	overflow: hidden;
+	scrollbar-width: 0;
+	
+	
+}
+.my-scoll-no::-webkit-scrollbar{
+    display: none;
+}
+body{
+overflow: hidden;
+}
