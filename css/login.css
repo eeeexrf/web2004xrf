@@ -15,3 +15,100 @@
 body{
 overflow: hidden;
 }
+.carousel-item{
+	transition: all linear 1s 2s; 
+	
+}
+#J_top_bar{
+    height: 40px;
+    background: #2b1c1c;
+    color: #9e8c8c;
+    top: 0;
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
+    left: 0;
+    min-width: 990px;
+}
+.loginbox{
+    width: 530px;
+    position: absolute;
+    margin: -180px 0 0 -265px;
+    top: 50%;
+    left: 50%;
+    border-radius: 4px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #333;
+}
+.loginbox_h{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+.loginbox_c{
+    background: rgba(255, 255, 255, 0.8);
+}
+a{ text-decoration:none} 
+.loginbox_h a{
+    background: rgba(0,0,0,.6);
+    color: #fff;
+    width: 50%;
+    float: left;
+}
+.loginbox_h a.on{
+    background: rgb(255, 255, 255,.8);
+    color: #333;
+}
+.loginbox_l{
+    float: left;
+    width: 300px;
+    padding: 20px;
+    border-right: 1px solid #999;
+    margin: 30px 0 0;
+}
+.loginbox_r{
+    float: left;
+    width: 165px;
+    text-align: center;
+    margin: 1px;
+}
+.loginbox_r a{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 5px;
+    background: url(../images/login/1.png) no-repeat;
+    background: rgba(0,0,0,0) url(../images/login/1.png) no-repeat scroll 0 0/auto 30px;
+    background-position-x: 0px;
+    background-position-y: 0px;
+}
+.loginbox_r a.a1 {
+    background-position: -90px 0;
+}
+.loginbox_r a.a2{
+    background-position: -150px 0;
+}
+.loginbox_r a.a3{
+    background-position: -60px 0; 
+}
+@media (max-width:1199.99px){
+	.loginbox{
+		top: 77%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
